@@ -9,9 +9,7 @@ const Dropdown = ({placeholder = 'Vyber...', options = [], selected, onChange}) 
 
   return (
     <div className="dropdown">
-      <div
-        className="dropdown__header"
-      >
+      <div className="dropdown__header">
         {selected || placeholder}
       </div>
       <div className="dropdown__list">
