@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './style.css';
 
-const Dropdown = ({placeholder = 'Vyber...', options, selected, onChange}) => {
+const Dropdown = ({placeholder = 'Vyber...', options = [], selected, onChange}) => {
 
   const handleClick = (item) => {
     onChange(item);
